@@ -1,0 +1,52 @@
+/* GENERICS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clearfix::after{
+    display: table;
+    content: '';
+    clear: both;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    
+}
+header{
+    height: 100px;
+    background-color: pink;
+    margin-bottom: 20px;
+}
+section{
+    height: 400px;
+    background-color: yellow;
+    margin-bottom: 20px;
+}
+main{
+    height: 600px;
+    background-color: blue;
+    margin-bottom: 10px;
+}
+footer{
+    height: 100px;
+    background-color: blueviolet;
+}
+.or-block{
+    height: 50px;
+    width: auto;
+    background-color: cornflowerblue;
+    margin-bottom: 20px;
+}
+.block{
+    height: 510px;
+    width: 200px;
+    background-color: cornflowerblue;
+    float: left;
+    
+}
+.central-block{
+    width: 560px;
+    margin: 0 20px;
+}
