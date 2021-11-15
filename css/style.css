@@ -14,14 +14,28 @@
     margin: 0 auto;
     
 }
+/* UTILS */
+.text-grey{
+    color: grey;
+}
+/* LOGO */
+#logo{
+    height: 50px;
+}
+/* LISTA */
+li,a{
+    color: grey;
+    display: inline-block;
+    padding: 5px;
+    text-decoration: none;
+}
+
+
+
 header{
-    height: 100px;
-    background-color: pink;
     margin-bottom: 20px;
 }
 section{
-    height: 400px;
-    background-color: yellow;
     margin-bottom: 20px;
 }
 main{
