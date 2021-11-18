@@ -5,11 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Gianluca Ingrao">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Layout</title>
 </head>
 <body>
-    <div class="container">
+    <div class="container clearfix">
        <header>
            <img src="img/logo.png" alt="logo" id="logo">
        </header>
@@ -17,11 +20,11 @@
            <nav>
                 <ul class="navigation-list">
                     <li><a href="*"> FEATURES</a></li>
-                    <li><a href="*"> FEATURES</a></li>
-                    <li><a href="*"> FEATURES</a></li>
-                    <li><a href="*"> FEATURES</a></li>
-                    <li><a href="*"> FEATURES</a></li>
-                    <li><a href="*"> FEATURES</a></li>
+                    <li><a href="*"> EDITORIALS</a></li>
+                    <li><a href="*"> ENVIRONMENT</a></li>
+                    <li><a href="*"> BLOG</a></li>
+                    <li><a href="*"> SHOP</a></li>
+                    <li><a href="*"> CONTACT</a></li>
                 </ul>
             </nav>
             <div class="yoga">
@@ -32,13 +35,35 @@
                 </div>
        </section>
        <main>
-           <div class="or-block"></div>
-           <div class="block"></div>
-           <div class="block central-block"></div>
-           <div class="block"></div>
-           
+           <div class="container clearfix">
+               <div class="or-block">
+                   <h1>Leadership</h1>
+                   <span class="text-grey">Fertenum urna a libero tempus</span>
+            </div>
+            <div class="row">
+                <div class="col w-25">
+                    <div class="img-w-25sx"></div>  
+                     <h3>Lorem</h3>
+                     <p class="text-grey text-generics">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat corporis incidunt hic nulla, necessitatibus, animi aut sed sint officiis nesciunt quidem reprehenderit quod vero. Voluptate reprehenderit dignissimos soluta facilis pariatur?</p>
+                </div>
+                <div class="col w-50">
+                    <div  class="img-w-50"></div>
+                    <h3>Ipsum</h3>
+                    <p class="text-grey text-generics">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt tempora ipsam quo ab similique quibusdam aspernatur unde molestiae nobis atque? Voluptas maiores fugit possimus corporis hic! Officiis sequi perferendis quas.
+                    Eius, in beatae quod omnis rem sapiente recusandae reprehenderit explicabo culpa magni enim iste distinctio ut nobis voluptate quasi voluptates officiis repellat provident consequatur nemo laboriosam, maiores repellendus maxime! Enim! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi quo consequatur dolores repellendus commodi, ut totam illo, soluta repudiandae voluptatibus quidem porro itaque doloribus! Laboriosam iste dolor dicta quasi quam.
+                    At non ducimus, repudiandae voluptates doloremque libero eos? Dignissimos a autem odio, minus omnis magnam aspernatur perspiciatis incidunt nisi repudiandae ipsam modi vitae laborum fugiat dolore, quod error ut similique!</p>
+                </div>
+                <div class="col w-25">
+                    <div class="img-w-25dx"></div> 
+                    <h3>Lorem</h3>
+                    <p class="text-grey text-generics">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat corporis incidunt hic nulla, necessitatibus, animi aut sed sint officiis nesciunt quidem reprehenderit quod vero. Voluptate reprehenderit dignissimos soluta facilis pariatur?</p>
+                </div>
+            </div>
+           </div>
        </main>
-       <footer></footer>
+       <footer>
+           <div class="footer">Designed with <span id="hearts">&hearts;</span></div>
+       </footer>
    </div>
 </body>
 </html>
